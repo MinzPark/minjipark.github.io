@@ -28,10 +28,10 @@
         <div class="credit">
           This website is based on 
           <a 
-            href="https://github.com/jmbyun/jmbyun.github.io" 
+            href=https://github.com/MinzPark/minzpark.github.io //"https://github.com/jmbyun/jmbyun.github.io" 
             target="_blank"
           >
-            https://github.com/jmbyun/jmbyun.github.io
+            https://github.com/MinzPark/minzpark.github.io //https://github.com/jmbyun/jmbyun.github.io
           </a>
         </div>
       </div>
