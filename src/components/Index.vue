@@ -13,8 +13,7 @@
           v-for="sectionId in contents.body"
           :key="sectionId"
         >
-          <!-- 이미지 삽입 -->
-          //<img src="https://minzpark.github.io/static/minji.jpg" alt="Minji's Photo">
+        
           <publications 
             v-if="sectionId === 'publications'"
             class="is-padding-bottom-4"
