@@ -90,6 +90,15 @@ export default {
     z-index: 100;
   }
 
+    /* 이미지 스타일 */
+  img {
+    max-width: 100%; /* 부모 요소에 맞게 크기 조정 */
+    height: auto; /* 비율 유지 */
+    display: block;
+    margin: 0 auto; /* 중앙 정렬 */
+  }
+  
+
   .credit {
     $credit-color: #bbb;
     border-top: 1px solid $credit-color;
