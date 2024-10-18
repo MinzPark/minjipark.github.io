@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Minji Park's Homepage</title>
 
+    <!-- Place your custom CSS styles inside the <style> tag -->
     <style>
       nav {
         text-align: right;
@@ -19,13 +20,26 @@
         text-decoration: underline;
       }
       body {
-      font-family: 'Roboto', sans-serif;
-      font-size: 16px;
-    }
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-  <link href="./assets/css/chunk-vendors.d4dbc304.chunk.css" rel="stylesheet">
-  <link href="./assets/css/index.0dc01a23.chunk.css" rel="stylesheet">
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+      }
+
+      /* Custom style to add spacing between sentences for both sections */
+      .publication, .seminar {
+        margin-bottom: 20px; /* Adds 20px space between sentences */
+      }
+
+      /* Style for the horizontal rule */
+      hr {
+        border: none; /* Remove default border style */
+        border-top: 2px solid #ccc; /* Custom border style */
+        margin: 40px 0; /* Adds space before and after the line */
+      }
     </style>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="./assets/css/chunk-vendors.d4dbc304.chunk.css" rel="stylesheet">
+    <link href="./assets/css/index.0dc01a23.chunk.css" rel="stylesheet">
   </head>
   <body>
     <nav>
@@ -33,13 +47,26 @@
       <a href="/publication/index.html">Publication</a>
     </nav>
 
+    <!-- Publication Section -->
     <h1>Publication</h1>
     <p>This is the page of publication and working paper.</p>
-        <ul>
-      Paper 1: "Title of the First Paper" - Published in Journal A, 2022 \\
-      Paper 2: "Title of the Second Paper" - Working Paper, 2023 \\
-      Paper 3: "Title of the Third Paper" - Published in Journal B, 2024 \\
-    </ul>
+
+    <!-- Use the "publication" class to apply spacing between these paragraphs -->
+    <p class="publication">Paper 1: "Title of the First Paper" - Published in Journal A, 2022</p>
+    <p class="publication">Paper 2: "Title of the Second Paper" - Working Paper, 2023</p>
+    <p class="publication">Paper 3: "Title of the Third Paper" - Published in Journal B, 2024</p>
+
+    <!-- Divider Line (---) -->
+    <hr>
+
+    <!-- Seminar Section -->
+    <h1>Seminar</h1>
+    <p>This is the page of seminars and talks.</p>
+
+    <!-- Use the "seminar" class to apply spacing between these paragraphs -->
+    <p class="seminar">Seminar 1: "Title of the First Seminar" - Held at University A, 2022</p>
+    <p class="seminar">Seminar 2: "Title of the Second Seminar" - Held at Conference B, 2023</p>
+
     <noscript>You need to enable JavaScript to run this app.</noscript>
 
     <div id="app"></div>
