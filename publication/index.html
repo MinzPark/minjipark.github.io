@@ -23,17 +23,13 @@
         font-family: 'Roboto', sans-serif;
         font-size: 16px;
       }
-
-      /* Custom style to add spacing between sentences for both sections */
-      .publication, .seminar {
-        margin-bottom: 20px; /* Adds 20px space between sentences */
+      .publication, .conference, .shcolarship, .working papaers {
+        margin-bottom: 20px; 
       }
-
-      /* Style for the horizontal rule */
       hr {
-        border: none; /* Remove default border style */
-        border-top: 2px solid #ccc; /* Custom border style */
-        margin: 40px 0; /* Adds space before and after the line */
+        border: none; 
+        border-top: 2px solid #ccc; 
+        margin: 40px 0; 
       }
     </style>
 
@@ -47,26 +43,39 @@
       <a href="/publication/index.html">Publication</a>
     </nav>
 
+    <!-- Working Papers Section -->
+    <h1>Working Papers</h1>
+    <ul>
+      <li>M.Park, M.Park, and J.Ahn. On the bias of commercial insurance premiums,<em>Under Review</em></li>
+      <li>R.Oh,M.Park, and J.Ahn. Neural credibility, <em>Work in Progress</em></li>
+    </ul>
+    <!-- Divider Line (---) -->
+     <hr>
+    
     <!-- Publication Section -->
     <h1>Publication</h1>
-    <p>This is the page of publication and working paper.</p>
-
-    <!-- Use the "publication" class to apply spacing between these paragraphs -->
-    <p class="publication">Paper 1: "Title of the First Paper" - Published in Journal A, 2022</p>
-    <p class="publication">Paper 2: "Title of the Second Paper" - Working Paper, 2023</p>
-    <p class="publication">Paper 3: "Title of the Third Paper" - Published in Journal B, 2024</p>
-
-    <!-- Divider Line (---) -->
+    <ul>
+      <li>S.Kim,M.Park,J.Kim,T.Kim, and C.Min.EvalRound Algorithm in CKKS Bootstrapping.<i>Lecture Notes in Computer Science (LNCS).Volum 13792</i>.2022</li>
+    </ul>
     <hr>
 
-    <!-- Seminar Section -->
-    <h1>Seminar</h1>
-    <p>This is the page of seminars and talks.</p>
-
-    <!-- Use the "seminar" class to apply spacing between these paragraphs -->
-    <p class="seminar">Seminar 1: "Title of the First Seminar" - Held at University A, 2022</p>
-    <p class="seminar">Seminar 2: "Title of the Second Seminar" - Held at Conference B, 2023</p>
-
+    <!-- Conference Section -->
+    <h1>Conference</h1>
+    
+   <!-- Another Unordered (Itemized) List -->
+    <ul>
+      <!--<li>M.Park and J.Ahn.Neural credibility. 2024</li>-->
+      <li>M.Park,M.Park and J.Ahn. Unbiased commercial premium. <i>27th International Congress on Insurance: Mathematics and Economics(IME2024)</i>. 2024</li>
+      <li>M.Park and C.Min. Weighted Remez Algorithm Applied to Homomorphic Encryption Approximation. <i>New Trends in Scientific Computing(IPAM)</i>. 2022</li>
+    </ul>
+  
+    <!-- Scholarship Section -->
+    <h1>Scholarship</h1>
+    
+   <!-- Another Unordered (Itemized) List -->
+    <ul>
+      <li>M.Park and J.Ahn.Weighted Remez Al- gorithm Applied to Homomorphic Encryption Approximation,2024</li>
+    </ul>
     <noscript>You need to enable JavaScript to run this app.</noscript>
 
     <div id="app"></div>
