@@ -27,7 +27,7 @@
           ></vue-markdown>
         </div>
         <div class="credit">
-          This website is based on 
+          This website is based on https://github.com/jmbyun/jmbyun.github.io
           <a 
             href=https://github.com/jmbyun/jmbyun.github.io
             target="_blank"
