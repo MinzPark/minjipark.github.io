@@ -21,7 +21,6 @@
         font-size: 2rem; /* 제목 글씨 크기 */
         font-weight: bold; /* 글씨 두께 */
         color: #555; 
-        border-bottom: 1px solid #ddd; /* 밑줄 스타일 */
         padding-bottom: 30px; /* 밑줄과 텍스트 간격 */
         margin-top: 10px;
         margin-bottom: 30px; /* 제목과 콘텐츠 간격 */
@@ -58,6 +57,12 @@
       b {
         color: #1A1A1A; /* 강조된 텍스트는 진한 검정색 */
       }
+
+      hr {
+      border: none; /* 기본 테두리 제거 */
+      border-top: 1px solid #ddd; /* 가로선 추가 */
+      margin: 10px 0; /* 위아래 간격 조정 */
+      }
     </style>
   </head>
   <body>
@@ -78,16 +83,19 @@
         <b>M.Park</b>, M.Park, J.Ahn. On the bias of commercial insurance premiums, <i>Under Review</i>
       </li>
     </ul>
-
-    <ul>
+    <hr>
+    
+    
     <h1>Publication</h1>
+    <ul>
       <li>
         S.Kim, M.Park, J.Kim, T.Kim, C.Min. EvalRound Algorithm in CKKS Bootstrapping, <i>Lecture Notes in Computer Science (LNCS)</i>, Volume 13792, 2022
       </li>
     </ul>
-
-    <ul>
+    <hr>
+    
     <h1>Conference</h1>
+    <ul>
       <li>
         M.Park, M.Park, J.Ahn. Unbiased commercial premium. <i>27th International Congress on Insurance: Mathematics and Economics (IME2024)</i>, 2024
       </li>
@@ -95,9 +103,10 @@
         M.Park, C.Min. Weighted Remez Algorithm Applied to Homomorphic Encryption Approximation. <i>New Trends in Scientific Computing (IPAM)</i>, 2022
       </li>
     </ul>
-
-    <ul>
+    <hr>
+    
     <h1>Scholarship</h1>
+    <ul>
       <li>
         Globalink Research Award to Canada. <i>Mitacs</i>, Nov. 2024 - Jan. 2025
       </li>
